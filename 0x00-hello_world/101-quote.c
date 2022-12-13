@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Prints a string
  * followed by a new line
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	write(2,
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      59);
 
-	putchar(c);
-	putchar('\n');
-
-	return (0);
+	return (1);
 }
