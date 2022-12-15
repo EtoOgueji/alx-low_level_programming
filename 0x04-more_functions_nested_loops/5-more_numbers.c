@@ -9,6 +9,8 @@ void more_numbers(void)
 {
 	int c;
 
+	int count;
+
 	for (c = 0; c <= 14; c++)
 		for (count = 0; count <= 10; count++)
 			_putchar(c);
