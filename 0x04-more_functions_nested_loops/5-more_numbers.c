@@ -13,6 +13,9 @@ void more_numbers(void)
 
 	for (c = 0; c <= 14; c++)
 		for (count = 0; count <= 10; count++)
-			_putchar(c);
-	_putchar('\n');
-}
+        {
+            if (c >= 10)
+                _putchar('1');
+                _putchar(i % 2 + '0');
+                _putchar('\n');
+        }
