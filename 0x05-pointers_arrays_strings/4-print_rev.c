@@ -20,11 +20,6 @@ void print_rev(char *s)
 
 	for (i = len - 1; i > 0; i--)
 	{
-		if (i == '\0')
-		{
-			break;
-		}
-
 		_putchar(s[i]);
 	}
 	_putchar(s[0]);
