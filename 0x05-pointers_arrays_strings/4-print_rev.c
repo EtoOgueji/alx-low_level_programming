@@ -8,7 +8,13 @@
  */
 void print_rev(char *s)
 {
-	int len = _strlen(s);
+	int len = 0;
+
+	while (*s++)
+	{
+		len++;
+	}
+
 	int i;
 
 	for (i = len - 1; i > 0; i--)
