@@ -1,33 +1,3 @@
-
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@EtoOgueji 
-EtoOgueji
-/
-alx-low_level_programming-1
-Public
-forked from Tolulope05/alx-low_level_programming
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-alx-low_level_programming-1/0x06-pointers_arrays_strings/7-leet.c
-@Tolulope05
-Tolulope05 tolulopedsvid
-Latest commit 7dde046 on Mar 23
- History
- 1 contributor
-Executable File  29 lines (26 sloc)  510 Bytes
-
 #include "main.h"
 /**
  * leet - encodes a string into 1337
