@@ -4,7 +4,7 @@
  * memory area pointed to by s with the constant byte b
  * @s: array name
  * @b: constant byte/value
- * n: number of times to print b
+ * @n: number of times to print b
  *
  * Return: S (Success)
  */
