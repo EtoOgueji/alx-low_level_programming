@@ -1,0 +1,1 @@
+working with statick libraries
