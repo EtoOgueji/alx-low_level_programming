@@ -1,1 +1,3 @@
-readme for project
+#FILE iNPUT OUTPUT
+
+File input and output
